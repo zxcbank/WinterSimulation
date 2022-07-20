@@ -1,4 +1,5 @@
 import pygame
+
 pygame.font.init()
 # Задаем цвета
 WHITE = (255, 255, 255)
@@ -17,4 +18,3 @@ cols = [col1, col15, col2, col3, col4]
 
 f1 = pygame.font.Font(None, 36)
 nums = [f1.render('+15', True, (0, 0, 0)), f1.render('0', True, (0, 0, 0)), f1.render('-15', True, (0, 0, 0)), f1.render('-30', True, (0, 0, 0)), f1.render('-50', True, (0, 0, 0))]
-
