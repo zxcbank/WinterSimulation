@@ -8,7 +8,7 @@ pygame.font.init()
 
 WIDTH = 1000
 HEIGHT = 737
-FPS = 12
+FPS = 60
 
 f2 = pygame.font.Font(None, 36)
 
